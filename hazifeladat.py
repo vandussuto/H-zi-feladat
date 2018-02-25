@@ -18,3 +18,4 @@ def feladat_11(ev):
         szokoev=y/4
         nap=int(szokoev*366+(ev-szokoev+x)*365)
         print(nap)
+        
