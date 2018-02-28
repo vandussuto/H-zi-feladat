@@ -108,4 +108,31 @@ def feladat_13(erdemjegy):
 
 
 
-def feladat_17():
+def feladat_28(n):
+    m=0
+    m>=n
+    if n>1:
+        z=m//
+
+
+
+def feladat_26(x):
+    x=0
+    minusz=0
+    plusz=0
+    z=int(input("Adja meg az első számot: "))
+    if z > 0:
+        plusz += 1
+    elif z < 0:
+        minusz += 1
+    x=x+z
+    print(x)
+    while x!=0:
+        z=int(input("Adja meg a következő számot: "))
+        if z>0:
+            plusz+=1
+        elif z<0:
+            minusz+=1
+        x=x+z
+        print(x)
+    print("Minusz: ",minusz,", Plusz: ",plusz)
